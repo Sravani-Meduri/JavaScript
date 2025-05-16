@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            //array//
+            let names=["Sravani", "Mounica", "Hari", "Rohith"] //string
+            // console.log(names);
+            // console.log(names[0]);
+            // console.log(names[1]);
+            // console.log(names[2]);
+            // console.log(names[3]);
+
+            let yearofbirth=['1976', '2000', '2006'] //numbers
+            //console.log(yearofbirth[0])
+
+            let bookDetails=["Harrypotter", '1975', true] //combined of numbers, strings, boolean
+            // console.log(bookDetails[0])
+            // console.log(bookDetails[1])
+            // console.log(bookDetails[2])
+            // console.log(bookDetails[10])
+
+            //objects//
+            let CustomerDetails={
+                "Name": "Rohith" ,
+                "Age": '20',
+                "MobileNumber": "8668XXXXX"    
+             }
+             //console.log(CustomerDetails)//
+            //  console.log(CustomerDetails.Name)
+            //  console.log(CustomerDetails.Age)
+            //  console.log(CustomerDetails.MobileNumber)
+
+            let AuthorDetails={
+                "Name": "Rabindranath Tagore",
+                "Year": '1965',
+                "Title": "Geethanjali"
+            }
+            // console.log(authorDetails["Name"])
+            // console.log(authorDetails["Title"])
+
+            //object inside array//
+
+            let Author1Details={
+                Name: "Rabindranath Tagore",
+                Year: '1965',
+                Title: "Geethanjali",
+                characterNames : ["Nagarjuna", "Girija", "VijayaKumar"],
+                characterDetails : {
+                    charactername: "Nagarjuna",
+                    Role: "Hero"
+                }
+            }
+            console.log(Author1Details.characterNames)
+             console.log(Author1Details["Name"])
+             console.log(Author1Details["characterNames"][0])
+             console.log(Author1Details["characterDetails"].Role)
+
+
+            
+             //Array of objects
+
+             let cars=[
+                {
+                    carName: "Indica",
+                    LaunchDate:"12-5-1967"
+                },
+
+                {
+                    carName: "Toyota",
+                    LaunchDate:"2-9-1945"
+                }
+
+
+             ]
+             console.log(cars[0])
+             console.log(cars[0].carName)
+             console.log(cars[1].LaunchDate);
+
+
+        </script>
+    </body>
+</html>
