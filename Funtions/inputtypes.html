@@ -3,48 +3,48 @@
     <head></head>
     <body>
         <script>
-            // function StudentDetails(StudentName, RollNumber, Subject, Marks){
-            //     console.log("Student Name:" , StudentName);
-            //     console.log("Roll Number:" , RollNumber);
-            //     console.log("Subject:", Subject);
-            //     console.log("Marks:", Marks);
+             function StudentDetails(StudentName, RollNumber, Subject, Marks){
+                 console.log("Student Name:" , StudentName);
+                 console.log("Roll Number:" , RollNumber);
+                 console.log("Subject:", Subject);
+                 console.log("Marks:", Marks);
 
-            // }
-            // StudentDetails("Sravani", '23', "Science", '89');
+            }
+            StudentDetails("Sravani", '23', "Science", '89');
 
             //optional parameters
-            // function StudentDetails(StudentName, RollNumber, Subject, Marks){
-            //     console.log("Student Name:" , StudentName);
-            //     console.log("Roll Number:" , RollNumber);
-            //     console.log("Subject:", Subject);
-            //     //Marks = Marks || "not available";
-            //     console.log("Marks:", Marks);
+            function StudentDetails(StudentName, RollNumber, Subject, Marks){
+                Marks = Marks || "not available";
+                console.log("Student Name:" , StudentName);
+                console.log("Roll Number:" , RollNumber);
+                console.log("Subject:", Subject);
+                console.log("Marks:", Marks);
                 
 
-            // }
-            // StudentDetails("Sravani", 23, "Science");
+            }
+            StudentDetails("Sravani", 23, "Science");
 
-            //Default parameters
-            // function StudentDetails(StudentName, RollNumber, Subject, Marks=89){
-            //     console.log("Student Name:" , StudentName);
-            //     console.log("Roll Number:" , RollNumber);
-            //     console.log("Subject:", Subject);
-            //     console.log("Marks:", Marks);
+            // Default parameters
+            function StudentDetails(StudentName, RollNumber, Subject, Marks=89){
+                console.log("Student Name:" , StudentName);
+                console.log("Roll Number:" , RollNumber);
+                console.log("Subject:", Subject);
+                console.log("Marks:", Marks);
 
-            // }
-            // StudentDetails("Sravani", 23, "Science");
+            }
+            StudentDetails("Sravani", 23, "Science");
 
-            //Rest Parameters
+            // Rest Parameters
 
-            // function StudentDetails(...additionalparms){
-            //     console.log(additionalparms);
-            //     console.log("StudentName:" , additionalparms[0] );
-            //     console.log("RollNumber:" , additionalparms[1] );
-            //     console.log("Subject:" , additionalparms[2] );
-            //     console.log("Marks:" , additionalparms[3] );
+            function StudentDetails(...additionalparms){
+                console.log(additionalparms);
+                console.log("StudentName:" , additionalparms[0] );
+                console.log("RollNumber:" , additionalparms[1] );
+                console.log("Subject:" , additionalparms[2] );
+                console.log("Marks:" , additionalparms[3] );
 
-            // }
-            // StudentDetails("Sravani", 23, "Science", 89);
+            }
+            StudentDetails("Sravani", 23, "Science", 89);
 
             function StudentDetails(StudentName, RollNumber, ...additionalparms){
                 console.log(additionalparms);
