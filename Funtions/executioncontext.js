@@ -28,9 +28,10 @@ console.log(`${Coach} is the coach for both Player2 and Player3 when they play f
 function RCB(){
     let Player2 = "Virat";
     console.log(`${Player2} plays for only RCB`);
-    console.log(Player3);
+     console.log(Player3);
 
 }
+RCB();
 
 
 //Local block-2
@@ -38,8 +39,8 @@ function CSK(){
     let Player3 = "Jadeja";
     console.log(`${Player3} plays for only CSK`);
 }
-console.log(RCB());
-console.log(CSK());
+
+CSK();
 
 
 
