@@ -18,7 +18,7 @@
     }
 )("Pushpa", "AlluArjun", '1500000');
 
-//callback functions without parameters
+//callback functions without parameters - In callback function, we pass the argument type as function
 
 function StudentDetails(callbackfn){
     callbackfn();

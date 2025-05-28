@@ -1,19 +1,19 @@
 //members of object
 //Memebers refers to property and Methdod
 
-// var Student = {
-//     name        : "Sravani",
-//     DateOfBirth : "May 24, 1999",
-//     subjects    :  ["Mathematics", "Science", "Social"],
-//     getTotalMarks : function(){
-//         console.log("Total Marks for Sravani in all subjects are 598");
-//     }
-// };
+var Student = {
+    name        : "Sravani",
+    DateOfBirth : "May 24, 1999",
+    subjects    :  ["Mathematics", "Science", "Social"],
+    getTotalMarks : function(){
+        console.log("Total Marks for Sravani in all subjects are 598");
+    }
+};
 
-// console.log(Student.name);
-// console.log(Student.DateOfBirth);
-// console.log(Student.subjects);
-// Student.getTotalMarks();
+console.log(Student.name);
+console.log(Student.DateOfBirth);
+console.log(Student.subjects);
+Student.getTotalMarks();
 
 
 //Members of Array

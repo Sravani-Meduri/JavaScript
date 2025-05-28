@@ -35,7 +35,7 @@ function getStudentDetails(StudentName, Subjectlist){
 
  //this keyword in Arrow function --> these don't have this keyword on their own. They inherit from the parent scope at the time they are defined.
 
-var Director = "RajaMouli" //here we declared director outside th object i.e. globally. So, int he o/p, we get this
+var Director = "RajaMouli" //here we declared director outside th object i.e. globally. So, in the o/p, we get this
 
 
  var MovieDetail = {
