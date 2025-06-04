@@ -5,5 +5,5 @@
 
 
 for (step=0; step < 7; step=step+1){
-console.log(`${step} is completed`)
+console.log(`${step} is completed for circle`)
 }
