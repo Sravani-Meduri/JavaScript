@@ -22,7 +22,7 @@
 class School {
   //Members - constructor, Methods=function, Properties
   //function designed inside the class ---> then it is called method
-  //constructor member
+  //constructor member --> We can only declare one constructor in a class
   //fields - which holds the value
   //sname = "Sravani"; 
    sname;
@@ -37,7 +37,12 @@ class School {
     console.log(`Student name is ${this.sname} and his enrolled ID is ${this.sID}`)
 
   }
+  getStudentdetails(){
+    return  ["Sravani", "Mounica", "Bhavya", "Rohith"]
+  }
 }
 //new School().enrollStudent()
 const mySchool = new School("Sravani", "23456");   //instance of the object
 mySchool.enrollStudent();
+let studentdetails = mySchool.getStudentdetails();
+console.log(studentdetails)
