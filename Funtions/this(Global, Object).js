@@ -1,13 +1,13 @@
 //Global context
 
-//console.log(this)
+//console.log(this)    //window
 
 // var Movies = ["Pushpa", "Julai", "Happy"]
 // var Directors = ["Sukumar", "Trivikram", "Bhaskar"]
 // var getMovieDetails = function(){
 //     return Directors;
 // }
-// //console.log(getMovieDetails());
+// console.log(getMovieDetails());
 
 
 // console.log(this);
@@ -23,7 +23,8 @@
 // console.log(this);
 
 // //object context
-
+let Name ="Sravani"
+let JoinDate = 'May 7 1999'
 var Player = {
     Name : "MS DHONI",
     DateOfBirth : "July 7, 1983",
@@ -31,10 +32,13 @@ var Player = {
     Achievements : ["player of the Match", "Man Of the Match"],
     getPlayerAwards : function(){
         console.log(this);
-        console.log("Achievements:", this.Achievements)
-        console.log(this.getPlayerAwards)
+        // console.log("Name:", Name);
+        // console.log("JoinDate:", this.JoinDate);
+        //console.log(this.getPlayerAwards)
          },
     }
+// console.log(Name);
+// console.log(Player)
     
 
 Player.getPlayerAwards();

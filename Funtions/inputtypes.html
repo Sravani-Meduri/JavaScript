@@ -32,7 +32,7 @@
                 console.log("Marks:", Marks);
 
             }
-            StudentDetails("Sravani", 23, "Science");
+            StudentDetails("Sravani", '23', "Science");
 
             // Rest Parameters
 
@@ -45,6 +45,10 @@
 
             }
             StudentDetails("Sravani", 23, "Science", 89);
+
+             //let additionalparms = ["Sravani", '23', "Science", '89']
+             //console.log(additionalparms[0])
+
 
             function StudentDetails(StudentName, RollNumber, ...additionalparms){
                 console.log(additionalparms);

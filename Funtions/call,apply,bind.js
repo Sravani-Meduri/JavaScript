@@ -22,7 +22,7 @@ let Team2Details = {
 
 }
 
-
+//TeamDetails.getTeaminfo("Hssain", '500');
 //TeamDetails.getTeaminfo.call(Team2Details)  // in o/p, we get the details of Team2Details because we are calling that object
 //TeamDetails.getTeaminfo.call(Team2Details, "Ashish Nehra", '200') //we can pass individual arguments as well apart from calling te object
 
@@ -32,8 +32,8 @@ let Team2Details = {
 //bind method --> It creates a new function with 'this' set to the specified value and arguments present if provided
 //console.log(TeamDetails.getTeaminfo.bind(Team2Details, ["Ashish Nehra", '200']))
 
-let newTeamDetails = TeamDetails.getTeaminfo.bind(Team2Details, "Ashish Nehra", '200') 
-//here when we use bind a new function i.e. newTeamDetails(here) is created
+ let newTeamDetails = TeamDetails.getTeaminfo.bind(Team2Details, "Ashish Nehra", '200') 
+// //here when we use bind, a new function i.e. newTeamDetails(here) is created
 newTeamDetails();
 
 

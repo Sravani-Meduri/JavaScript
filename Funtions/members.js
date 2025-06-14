@@ -22,7 +22,7 @@ var PlayerDetails=["Dhoni", "Virat", "Sachin"];
 console.log(PlayerDetails.length); //3 property
 console.log(PlayerDetails.reverse());  //reverse is predefined
 
-console.log(PlayerDetails.pop());  //pop printsonly the last value of the array
+console.log(PlayerDetails.pop());  //pop prints only the last value of the array
 console.log("latest PlayerDetails;", PlayerDetails);
 console.log(PlayerDetails.length);
 

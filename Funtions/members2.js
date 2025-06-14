@@ -5,7 +5,7 @@
 //     console.log(SubjectDetails.length) //length returns the no. of parameters in teh function
 
 // }
-// SubjectDetails()
+// SubjectDetails();
 
 //understanding prototype
 
@@ -18,7 +18,8 @@
 
 // Player.prototype.getPlayerinfo = function(){
 //     console.log("MS Dhoni is pride of Indian Cricket")
-// }
+//  }
+
 // let newPlayer= new Player()
 // newPlayer.getPlayerinfo()
 
@@ -46,7 +47,7 @@
 // newPlayer.getCaptaininfo()
 
 
-//prototype by passing arguments
+// //prototype by passing arguments
 
 function Player(PlayerName, PlayerAge, PlayerPosition){
     console.log("Player")
@@ -56,7 +57,6 @@ function Player(PlayerName, PlayerAge, PlayerPosition){
     console.log(this)
 
 }
-
 Player.prototype.getPlayerinfo = function(){
     console.log(`${this.name} is really great as he is playing at the age of ${this.age}`)
 
@@ -64,6 +64,7 @@ Player.prototype.getCaptaininfo = function(){
     console.log(`${this.name} is the ${this.position} of CSK`)
 }
 }
+
 
 let newPlayer = new Player("Dhoni", '40', "Captain")
 newPlayer.getPlayerinfo()
